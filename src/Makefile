@@ -9,5 +9,5 @@ Perceptron.o: Perceptron.cc
 	$(CC) $(CFLAGS) Perceptron.cc
 clean :
 	rm -rf *.o
-superclean: clean
+realclean: clean
 	rm -rf main
